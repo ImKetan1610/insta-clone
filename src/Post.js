@@ -8,18 +8,14 @@ function Post({ username, caption, imageUrl }) {
       <div className="post__header">
         <Avatar
           className="post__avatar"
-          alt={ username }
+          alt={username}
           src="/static/images/avatar/1.jpg"
         />
         <h3>{username}</h3>
         {/* header -> avatar + username  */}
       </div>
 
-      <img
-        className="post__image"
-        src={ imageUrl }
-        alt="...loading"
-      />
+      <img className="post__image" src={imageUrl} alt="...loading" />
       {/* image */}
 
       <h4 className="post__text">
