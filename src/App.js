@@ -14,6 +14,8 @@ function App() {
       </div>
       <h1>hi this is a insta app</h1>
       <Post />
+      <Post />
+      <Post />
     </div>
   );
 }
