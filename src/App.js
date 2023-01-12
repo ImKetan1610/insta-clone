@@ -31,7 +31,7 @@ function App() {
           alt=""
         />
       </div>
-      <h1>hi this is an insta app</h1>
+      <h1>hi this is an insta app</h1> 
 
       {posts.map((post) => (
         <Post
